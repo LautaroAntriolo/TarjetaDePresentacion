@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     box-sizing: border-box;
 }
@@ -28,6 +28,7 @@ body {
     display: grid;
     grid-auto-rows: max-content;
     grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(310px, 1fr));
     gap: .5em;
 
     /* Fondo */

@@ -14,28 +14,129 @@
       href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap"
       rel="stylesheet"
     />
-    <!-- Parrafo -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- Hoja de animaciones de CSS -->
-    <link rel="stylesheet" href="animate.css" />
 
     <link rel="stylesheet" href="css/estilos.css" />
     <link rel="stylesheet" href="css/cv.css" />
+    <link rel="stylesheet" href="css/estudios.css">
   </head>
   <body>
     <section class="main">
-        <div class="container">
-            <div class="titulo"></div>
-            <div class="experiencia"></div>
-            <div class="estudios"></div>
-            <div class="conocimientos"></div>
-            <div class="interes"></div>
-            <div class="img"></div>
+      <div class="container">
+        <div class="titulo main__title"><p>Lautaro Antriolo</p></div>
+        <button id="openExp" class="but experiencia main__link">
+          <p>Experiencia</p>
+        </button>
+        <div id="modal_containerExp" class="modal-containerExp">
+          <div class="modalExp">
+            <h1>Experiencia</h1>
+            <p>
+              <h3>Mentor de programación</h3>
+              <h4>Aprende Programando</h4>
+              <ul>
+                <li>
+                  Ministerio de educación CABA
+                </li>
+                <li>
+                  Clases de programación en Javascript, React, Arduino, HTML y CSS.
+                </li>
+              </ul>
+            </p>
+            <p>
+              <h3>Call Center</h3>
+              <h4>Mera Solution 2021-2022</h4>
+              <ul>
+                <li>
+                  Atención telefónica y digital, campaña Edesur
+                </li>
+              </ul>
+            </p>
+            <p>
+              <h3>Empleado depósito</h3>
+              <h4>Pardo S.A | 2016-2017</h4>
+              <ul>
+                <li>
+                  -Organización y mantenimiento del deposito.
+                </li>
+                <li>-Atención al publico y reparto</li>
+              </ul>
+            </p>
+            <p>
+              <h3>Clases particulares</h3>
+              <h4>Proyecto personal 2015-2018</h4>
+              <ul>
+                <li>
+                  Clases particulares de matemática, biología y física a alumnos de
+                  primaria y secundaria.
+                </li> 
+                <li>
+                  Seguimiento de su nivel.
+                </li>
+              </ul>
+            </p>
+            <button id="closeExp">Cerrar</button>
           </div>
+        </div>
+        <!-- Estudios -->
+        <button id="openEst" class="but estudios main__link"><p>Estudios</p></button>
+        <div id="modal_containerEst" class="modal_containerEst">
+          <div class="modalEst">
+            <h1>Estudios</h1>
+            <p>
+              <h3>Mentor de programación</h3>
+              <h4>Aprende Programando</h4>
+              <ul>
+                <li>
+                  Ministerio de educación CABA
+                </li>
+                <li>
+                  Clases de programación en Javascript, React, Arduino, HTML y CSS.
+                </li>
+              </ul>
+            </p>
+            <p>
+              <h3>Call Center</h3>
+              <h4>Mera Solution 2021-2022</h4>
+              <ul>
+                <li>
+                  Atención telefónica y digital, campaña Edesur
+                </li>
+              </ul>
+            </p>
+            <p>
+              <h3>Empleado depósito</h3>
+              <h4>Pardo S.A | 2016-2017</h4>
+              <ul>
+                <li>
+                  -Organización y mantenimiento del deposito.
+                </li>
+                <li>-Atención al publico y reparto</li>
+              </ul>
+            </p>
+            <p>
+              <h3>Clases particulares</h3>
+              <h4>Proyecto personal 2015-2018</h4>
+              <ul>
+                <li>
+                  Clases particulares de matemática, biología y física a alumnos de
+                  primaria y secundaria.
+                </li> 
+                <li>
+                  Seguimiento de su nivel.
+                </li>
+              </ul>
+            </p>
+            <button id="closeEst">Cerrar</button>
+          </div>
+        </div>
+        <button class="but conocimientos main__link">
+          <p>Conocimientos</p>
+        </button>
+        <button class="but interes main__link"><p>Interes</p></button>
+        <button class="but back main_link">
+          <a href="/index.html"><p>Back</p></a>
+        </button>
+      </div>
     </section>
   </body>
+  <script src="/js/move.js"></script>
 </html>

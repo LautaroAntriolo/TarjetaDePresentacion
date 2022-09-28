@@ -1,19 +1,29 @@
-// let imagen = document.querySelector(".main__img")
-// let titulo = document.querySelector(".main__title")
-// let parrafo = document.querySelector(".main__p")
-// let boton = document.querySelector(".mascota")
 
-// boton.addEventListener('mouseover', () => {
-//     titulo.textContent = "Dina Antriolo"
-//     parrafo.textContent = 'Tengo 4 años, soy impulsiva y duermo adentro con ropita nueva. Extraño mucho a mi familia que no vive en casa. Me gusta ensuciar el patio y ya no rompo las plantas'
-//     imagen.src = "./img/DinaPerfil.png"
+// EXPERIENCIA
+const openExp = document.getElementById('openExp');
+const modal_containerExp = document.getElementById('modal_containerExp');
+const closeExp = document.getElementById('closeExp');
 
-// });
+openExp.addEventListener('click', () => {
+  modal_containerExp.classList.add('show'); 
+});
 
-// boton.addEventListener('mouseout', () => {
-//     titulo.textContent = "Lautaro Antriolo"
-//     parrafo.textContent = 'Tengo 25 años, soy estudiante de Biología y un apasionado por la programación. Me interesa Python, React, Node.js y Docker. Mi próxima área de estudio será Google Cloud o AWS.'
-//     imagen.src = "./img/LautaroAntrioloPerfil.png"
-//     imagen.className += "animated infinite pulse delay-2s";
-// });
+closeExp.addEventListener('click', () => {
+  modal_containerExp.classList.remove('show');
+});
+
+// ESTUDIOS
+
+const openEst = document.getElementById('openEst');
+const modal_containerEst = document.getElementById('modal_containerEst');
+const closeEst = document.getElementById('closeEst');
+
+openEst.addEventListener('click', () => {
+  modal_containerEst.classList.add('show'); 
+});
+
+closeEst.addEventListener('click', () => {
+  modal_containerEst.classList.remove('show');
+});
+
 

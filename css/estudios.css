@@ -1,0 +1,41 @@
+.modal_containerEst {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.445);
+  align-items: center;
+  align-content: center;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;
+  top: 0x;
+  overflow: scroll;
+  height: 100%;
+  width: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.modalEst {
+  background-color: rgba(255, 255, 255, 0.884);
+  width: 600px;
+  max-width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: auto;
+}
+
+.modalEst h1 {
+  margin: 0;
+}
+
+.modalEst p {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.modalEst h1 {
+  font-size: 2rem;
+}
+.modalEst h3 {
+  color: #5c9a07;
+  justify-self: start;
+  align-items: initial;
+}
